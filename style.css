@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(148, 217, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.card {
+    border-radius: 16px; 
+    background-color: blanchedalmond;
+    max-width: 500px;
+    width: 100%; 
+    min-height: 250px;
+    display: flex;
+    gap: 20px; 
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.leftSide {
+    background-color: cadetblue;
+    img { width: 95%; height: 95%; align-self: center; border-radius: 5%; object-fit: cover;}
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    width: 40%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    color: rgb(38, 71, 72);
+}
